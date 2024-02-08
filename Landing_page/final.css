@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+    .hero {
+        padding-top: 20%;
+        background-image: url('https://greatjonesgoods.com/cdn/shop/files/Valentines_Homepage_Mobile_768x1024_crop_center@2x.jpg?v=1706195996');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+        height: 100vh;
+        object-fit: cover;
+        /* display: grid; */
+    }
+
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 20px;
+}
+
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 60vh;
+    background-color: #0e5540;
+    color: bisque;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-content: center
+}
+
+.right {
+    position: relative;
+    width: 15rem;
+    height: 30vh;
+    left: -30rem;
+}
+
+.left {
+    position: relative;
+    width: 4rem;
+    height: 30vh;
+    top: 8rem;
+    left: -8rem;
+}
+
+
+
+
+.product {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
